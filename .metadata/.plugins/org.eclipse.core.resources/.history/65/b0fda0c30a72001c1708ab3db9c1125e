@@ -1,0 +1,18 @@
+//package assign1;
+public class fib {
+	static int test(int n) {
+		if(n<=1) {
+			System.out.print(n+" ");
+			return n;
+		}
+		int res=test(n-1)+test(n-1);
+		System.out.print(res+" ");
+		return res;
+		
+	}
+	public static void main(String [] args) {
+
+		test(5);
+		
+	}
+}

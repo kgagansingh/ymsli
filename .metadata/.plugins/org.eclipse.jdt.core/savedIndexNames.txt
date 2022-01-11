@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\Users\ve00ym335\Documents\gaganpractice\.metadata\.plugins\org.eclipse.jdt.core
+3750344526.index
+132620216.index
+1773393425.index
+386236770.index
+1351100565.index

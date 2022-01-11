@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Assign1 {
+	static void q1() {
+		int last = 1, slast = 0;
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		for (int i = 0; i < n - 1; i++) {
+			int curr = last + slast;
+			System.out.println(curr);
+			slast = last;
+			last = curr;
+		}
+		
+	}
+
+	public static void main(String[] args) {
+		q1();
+	}
+
+}
